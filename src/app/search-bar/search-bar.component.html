@@ -1,3 +1,5 @@
-<form (submit)="onFormSubmit($event)">
-    <input #passTextEvent (input)="onInput(passTextEvent.value)"/>
-</form>
+<div class="box">
+    <form (submit)="onFormSubmit($event)">
+        <input placeholder='Enter search term' class='input' #passTextEvent (input)="onInput(passTextEvent.value)"/>
+    </form>
+</div>
